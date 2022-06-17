@@ -1,0 +1,21 @@
+.foteer__copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .foteer__copyright {
+        margin: 48px 0 0 32px;
+        line-height: 14px;
+
+    }
+ }
+
+ @media screen and (max-width: 568px) {
+    .foteer__copyright {
+      flex-direction: column;
+       margin: 48px 0 0 0;
+    }
+ }

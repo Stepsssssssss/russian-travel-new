@@ -1,0 +1,37 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px 484px;
+    width: calc(100% - 148px - 148px);
+    gap: 48px 40px;
+    margin: 80px auto 0;
+}
+
+
+@media screen and (max-width: 1140px) {
+    .place {
+      grid-template-columns: calc((100%/2) - 16px - 8px) calc((100%/2) - 16px + 8px);
+      width: calc(100% - 48px - 48px);
+      gap: 48px 32px;
+     }
+     
+  }
+ 
+ 
+ @media screen and (max-width: 948px) {
+     .place {
+      grid-template-columns: calc((100%/2) - 14px - 8px) calc((100%/2) - 14px + 8px);
+      width: calc(100% - 24px - 24px);
+      gap: 48px 28px;
+      margin: 73px auto 0;
+     }
+  }
+
+
+  @media screen and (max-width: 568px) {
+     .place {
+      width: 100%;
+      grid-template-columns: 100%; 
+      gap: 0;
+      margin: 50px 0 0;
+     }
+  }
