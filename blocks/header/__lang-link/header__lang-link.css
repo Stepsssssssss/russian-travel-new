@@ -1,18 +1,17 @@
 .header__lang-link {
     width: 30px;
-    height: 28px;
     font-size: 24px;
     line-height: 28px;
     list-style: none;
     display: inline;
     color: #fff;
     margin: 18px 18px 6px 0;
-    
+    text-decoration: none;
 }
 
 .header__lang-link:last-child {
     margin: 18px 0 6px 0;
-    text-decoration: none;
+    
 }
 
 @media screen and (max-width: 568px) {
@@ -21,6 +20,6 @@
        line-height: 20px;
        font-weight: 400;
        width: 22px;
-       height: 20px;
+       
     }
  }

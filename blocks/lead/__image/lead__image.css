@@ -1,6 +1,18 @@
 .lead__image {
-    margin: 0 0 8px;
+    width: calc(100% - 48px - 48px);
+    margin: 0 auto;
     object-fit: contain;
-    width: 100%;
+    
 }
+
+
+ 
+  @media screen and (max-width: 948px) {
+     .lead__image {
+        width: 100%;
+        
+     }
+  }
+ 
+  
 

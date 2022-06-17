@@ -3,5 +3,24 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Inter', Arial, sans-serif;
+    padding: 0 48px;
 }
 
+@media screen and (max-width: 1140px) {
+    .header {
+        padding: 28px 48px 0;
+    }
+}
+ 
+ 
+  @media screen and (max-width: 948px) {
+     .header {
+        padding: 24px 28px 0;
+     }
+  }
+ 
+  @media screen and (max-width: 568px) {
+     .header {
+        padding: 16px 16px 0;
+     }
+  }

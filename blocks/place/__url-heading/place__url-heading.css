@@ -2,7 +2,16 @@
     color: #AAAAAA;
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 1.7;
     letter-spacing: 2px;
     margin: 0 0 12px;
+    text-transform: uppercase;
 }
+ 
+ 
+  @media screen and (max-width: 948px) {
+     .place__url-heading {
+        line-height: 12px;
+     }
+  }
+ 
